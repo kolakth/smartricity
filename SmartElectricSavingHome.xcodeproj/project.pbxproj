@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F5DC9D0FA2DCD4EAE9A2A57 /* Pods_SmartElectricSavingHomeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3508E9A51DDBB75A1174D12 /* Pods_SmartElectricSavingHomeUITests.framework */; };
+		5AA87FFE709E118B78098628 /* Pods_SmartElectricSavingHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28BAD8D1AEE091DF3FBC9EF /* Pods_SmartElectricSavingHome.framework */; };
+		6DD7F4345AD08134E5B9FFA7 /* Pods_SmartElectricSavingHomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A43720BD1A79D62FB07C1D /* Pods_SmartElectricSavingHomeTests.framework */; };
+		A03134361FA1F62000CA6786 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A03134351FA1F62000CA6786 /* GoogleService-Info.plist */; };
 		A07A1C051FA1F558008A70D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A1C041FA1F558008A70D2 /* AppDelegate.swift */; };
 		A07A1C071FA1F558008A70D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A1C061FA1F558008A70D2 /* ViewController.swift */; };
 		A07A1C0A1FA1F558008A70D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07A1C081FA1F558008A70D2 /* Main.storyboard */; };
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0674C84A826B20496243E1C5 /* Pods-SmartElectricSavingHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartElectricSavingHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartElectricSavingHome/Pods-SmartElectricSavingHome.release.xcconfig"; sourceTree = "<group>"; };
+		09A43720BD1A79D62FB07C1D /* Pods_SmartElectricSavingHomeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartElectricSavingHomeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31793403421954EB47F4DF6E /* Pods-SmartElectricSavingHomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartElectricSavingHomeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartElectricSavingHomeTests/Pods-SmartElectricSavingHomeTests.release.xcconfig"; sourceTree = "<group>"; };
+		358A03775EFF47911EBC4BC7 /* Pods-SmartElectricSavingHomeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartElectricSavingHomeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartElectricSavingHomeUITests/Pods-SmartElectricSavingHomeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F6CCDC3336194E77853C848 /* Pods-SmartElectricSavingHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartElectricSavingHomeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartElectricSavingHomeTests/Pods-SmartElectricSavingHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7999E0B10303C1610216C367 /* Pods-SmartElectricSavingHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartElectricSavingHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartElectricSavingHome/Pods-SmartElectricSavingHome.debug.xcconfig"; sourceTree = "<group>"; };
+		A03134351FA1F62000CA6786 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A07A1C011FA1F558008A70D2 /* SmartElectricSavingHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartElectricSavingHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07A1C041FA1F558008A70D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A07A1C061FA1F558008A70D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		A07A1C231FA1F558008A70D2 /* SmartElectricSavingHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartElectricSavingHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07A1C271FA1F558008A70D2 /* SmartElectricSavingHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartElectricSavingHomeUITests.swift; sourceTree = "<group>"; };
 		A07A1C291FA1F558008A70D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28BAD8D1AEE091DF3FBC9EF /* Pods_SmartElectricSavingHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartElectricSavingHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53443694FBF635A9C3339CD /* Pods-SmartElectricSavingHomeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartElectricSavingHomeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartElectricSavingHomeUITests/Pods-SmartElectricSavingHomeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F3508E9A51DDBB75A1174D12 /* Pods_SmartElectricSavingHomeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartElectricSavingHomeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA87FFE709E118B78098628 /* Pods_SmartElectricSavingHome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD7F4345AD08134E5B9FFA7 /* Pods_SmartElectricSavingHomeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F5DC9D0FA2DCD4EAE9A2A57 /* Pods_SmartElectricSavingHomeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C95A0C4F25A574BDE0227B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B28BAD8D1AEE091DF3FBC9EF /* Pods_SmartElectricSavingHome.framework */,
+				09A43720BD1A79D62FB07C1D /* Pods_SmartElectricSavingHomeTests.framework */,
+				F3508E9A51DDBB75A1174D12 /* Pods_SmartElectricSavingHomeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A07A1BF81FA1F558008A70D2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				A07A1C1B1FA1F558008A70D2 /* SmartElectricSavingHomeTests */,
 				A07A1C261FA1F558008A70D2 /* SmartElectricSavingHomeUITests */,
 				A07A1C021FA1F558008A70D2 /* Products */,
+				C37583C72770567015BC8531 /* Pods */,
+				1C95A0C4F25A574BDE0227B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +128,7 @@
 		A07A1C031FA1F558008A70D2 /* SmartElectricSavingHome */ = {
 			isa = PBXGroup;
 			children = (
+				A03134351FA1F62000CA6786 /* GoogleService-Info.plist */,
 				A07A1C041FA1F558008A70D2 /* AppDelegate.swift */,
 				A07A1C061FA1F558008A70D2 /* ViewController.swift */,
 				A07A1C081FA1F558008A70D2 /* Main.storyboard */,
@@ -128,6 +158,19 @@
 			path = SmartElectricSavingHomeUITests;
 			sourceTree = "<group>";
 		};
+		C37583C72770567015BC8531 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7999E0B10303C1610216C367 /* Pods-SmartElectricSavingHome.debug.xcconfig */,
+				0674C84A826B20496243E1C5 /* Pods-SmartElectricSavingHome.release.xcconfig */,
+				4F6CCDC3336194E77853C848 /* Pods-SmartElectricSavingHomeTests.debug.xcconfig */,
+				31793403421954EB47F4DF6E /* Pods-SmartElectricSavingHomeTests.release.xcconfig */,
+				358A03775EFF47911EBC4BC7 /* Pods-SmartElectricSavingHomeUITests.debug.xcconfig */,
+				B53443694FBF635A9C3339CD /* Pods-SmartElectricSavingHomeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A07A1C2C1FA1F558008A70D2 /* Build configuration list for PBXNativeTarget "SmartElectricSavingHome" */;
 			buildPhases = (
+				036BB2424711BAB59D79AC75 /* [CP] Check Pods Manifest.lock */,
 				A07A1BFD1FA1F558008A70D2 /* Sources */,
 				A07A1BFE1FA1F558008A70D2 /* Frameworks */,
 				A07A1BFF1FA1F558008A70D2 /* Resources */,
+				365FD1A417B11767674A6B45 /* [CP] Embed Pods Frameworks */,
+				DC6B3DA577627F1D68A7FB83 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A07A1C2F1FA1F558008A70D2 /* Build configuration list for PBXNativeTarget "SmartElectricSavingHomeTests" */;
 			buildPhases = (
+				D448FEF76E2A4526119443B4 /* [CP] Check Pods Manifest.lock */,
 				A07A1C141FA1F558008A70D2 /* Sources */,
 				A07A1C151FA1F558008A70D2 /* Frameworks */,
 				A07A1C161FA1F558008A70D2 /* Resources */,
+				C9115329864760906D2D570F /* [CP] Embed Pods Frameworks */,
+				1D2F7AEBA25885085F68F11C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A07A1C321FA1F558008A70D2 /* Build configuration list for PBXNativeTarget "SmartElectricSavingHomeUITests" */;
 			buildPhases = (
+				5885A62BC635D99C9B00C4F8 /* [CP] Check Pods Manifest.lock */,
 				A07A1C1F1FA1F558008A70D2 /* Sources */,
 				A07A1C201FA1F558008A70D2 /* Frameworks */,
 				A07A1C211FA1F558008A70D2 /* Resources */,
+				8F37E82D4632BD01C4E611C1 /* [CP] Embed Pods Frameworks */,
+				C36FEEA2A1F519F4C10A56B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A07A1C121FA1F558008A70D2 /* LaunchScreen.storyboard in Resources */,
+				A03134361FA1F62000CA6786 /* GoogleService-Info.plist in Resources */,
 				A07A1C0F1FA1F558008A70D2 /* Assets.xcassets in Resources */,
 				A07A1C0A1FA1F558008A70D2 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +309,160 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		036BB2424711BAB59D79AC75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartElectricSavingHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D2F7AEBA25885085F68F11C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartElectricSavingHomeTests/Pods-SmartElectricSavingHomeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		365FD1A417B11767674A6B45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmartElectricSavingHome/Pods-SmartElectricSavingHome-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartElectricSavingHome/Pods-SmartElectricSavingHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5885A62BC635D99C9B00C4F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartElectricSavingHomeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F37E82D4632BD01C4E611C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartElectricSavingHomeUITests/Pods-SmartElectricSavingHomeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C36FEEA2A1F519F4C10A56B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartElectricSavingHomeUITests/Pods-SmartElectricSavingHomeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9115329864760906D2D570F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartElectricSavingHomeTests/Pods-SmartElectricSavingHomeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D448FEF76E2A4526119443B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartElectricSavingHomeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6B3DA577627F1D68A7FB83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartElectricSavingHome/Pods-SmartElectricSavingHome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A07A1BFD1FA1F558008A70D2 /* Sources */ = {
@@ -428,6 +635,7 @@
 		};
 		A07A1C2D1FA1F558008A70D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7999E0B10303C1610216C367 /* Pods-SmartElectricSavingHome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +651,7 @@
 		};
 		A07A1C2E1FA1F558008A70D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0674C84A826B20496243E1C5 /* Pods-SmartElectricSavingHome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +667,7 @@
 		};
 		A07A1C301FA1F558008A70D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F6CCDC3336194E77853C848 /* Pods-SmartElectricSavingHomeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +685,7 @@
 		};
 		A07A1C311FA1F558008A70D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31793403421954EB47F4DF6E /* Pods-SmartElectricSavingHomeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +703,7 @@
 		};
 		A07A1C331FA1F558008A70D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 358A03775EFF47911EBC4BC7 /* Pods-SmartElectricSavingHomeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +720,7 @@
 		};
 		A07A1C341FA1F558008A70D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B53443694FBF635A9C3339CD /* Pods-SmartElectricSavingHomeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
