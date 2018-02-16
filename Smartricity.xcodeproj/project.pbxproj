@@ -9,10 +9,20 @@
 /* Begin PBXBuildFile section */
 		2F5DC9D0FA2DCD4EAE9A2A57 /* Pods_SmartElectricSavingHomeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3508E9A51DDBB75A1174D12 /* Pods_SmartElectricSavingHomeUITests.framework */; };
 		5AA87FFE709E118B78098628 /* Pods_SmartElectricSavingHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28BAD8D1AEE091DF3FBC9EF /* Pods_SmartElectricSavingHome.framework */; };
+		6041B5AF201B1ABE0093B719 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041B5AE201B1ABE0093B719 /* SettingViewController.swift */; };
+		60965A07201B0B0C00DED78F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60965A05201B04BA00DED78F /* HomeViewController.swift */; };
 		6DD7F4345AD08134E5B9FFA7 /* Pods_SmartElectricSavingHomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A43720BD1A79D62FB07C1D /* Pods_SmartElectricSavingHomeTests.framework */; };
 		A01E1C8720074FB40082BDC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A01E1C8620074FB40082BDC4 /* GoogleService-Info.plist */; };
 		A01E1C89200756160082BDC4 /* member.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01E1C88200756160082BDC4 /* member.swift */; };
-		A01E1C8B20075F6F0082BDC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01E1C8A20075F6F0082BDC4 /* Assets.xcassets */; };
+		A05547232029CD5B00AB16D1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05547222029CD5B00AB16D1 /* LoginViewController.swift */; };
+		A05664D72029E3B400FAB7F6 /* ControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05664D62029E3B400FAB7F6 /* ControlViewController.swift */; };
+		A057B182202F896900B66042 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A057B181202F896900B66042 /* HomeKit.framework */; };
+		A05BF34A2033FCAD008B0A33 /* EnergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05BF3492033FCAD008B0A33 /* EnergyViewController.swift */; };
+		A05FCC3A20231870002D232F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A05FCC3920231870002D232F /* Assets.xcassets */; };
+		A0621C7D202D83A8009505A3 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0621C7C202D83A8009505A3 /* HistoryViewController.swift */; };
+		A063347A202980C100D702E7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0633479202980C100D702E7 /* SignUpViewController.swift */; };
+		A063347C2029815C00D702E7 /* ForgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A063347B2029815C00D702E7 /* ForgetViewController.swift */; };
+		A063347E2029851900D702E7 /* DashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A063347D2029851900D702E7 /* DashViewController.swift */; };
 		A07A1C051FA1F558008A70D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A1C041FA1F558008A70D2 /* AppDelegate.swift */; };
 		A07A1C071FA1F558008A70D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A1C061FA1F558008A70D2 /* ViewController.swift */; };
 		A07A1C0A1FA1F558008A70D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07A1C081FA1F558008A70D2 /* Main.storyboard */; };
@@ -20,6 +30,10 @@
 		A07A1C121FA1F558008A70D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07A1C101FA1F558008A70D2 /* LaunchScreen.storyboard */; };
 		A07A1C1D1FA1F558008A70D2 /* SmartElectricSavingHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A1C1C1FA1F558008A70D2 /* SmartElectricSavingHomeTests.swift */; };
 		A07A1C281FA1F558008A70D2 /* SmartElectricSavingHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A1C271FA1F558008A70D2 /* SmartElectricSavingHomeUITests.swift */; };
+		A09C6FD4203163F30082A1DB /* TableViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09C6FD3203163F30082A1DB /* TableViewControllerTableViewCell.swift */; };
+		A09C6FD6203164BE0082A1DB /* energyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09C6FD5203164BE0082A1DB /* energyModel.swift */; };
+		A09D4171202EE13600E73241 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09D4170202EE13600E73241 /* AlertController.swift */; };
+		A0A9383B20307DCE002599AA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A9383A20307DCE002599AA /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,11 +59,21 @@
 		31793403421954EB47F4DF6E /* Pods-SmartElectricSavingHomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartElectricSavingHomeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartElectricSavingHomeTests/Pods-SmartElectricSavingHomeTests.release.xcconfig"; sourceTree = "<group>"; };
 		358A03775EFF47911EBC4BC7 /* Pods-SmartElectricSavingHomeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartElectricSavingHomeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartElectricSavingHomeUITests/Pods-SmartElectricSavingHomeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4F6CCDC3336194E77853C848 /* Pods-SmartElectricSavingHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartElectricSavingHomeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartElectricSavingHomeTests/Pods-SmartElectricSavingHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6041B5AE201B1ABE0093B719 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		60965A05201B04BA00DED78F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7999E0B10303C1610216C367 /* Pods-SmartElectricSavingHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartElectricSavingHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartElectricSavingHome/Pods-SmartElectricSavingHome.debug.xcconfig"; sourceTree = "<group>"; };
 		A01E1C8320074E760082BDC4 /* SmartElectricSavingHome.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmartElectricSavingHome.entitlements; sourceTree = "<group>"; };
 		A01E1C8620074FB40082BDC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A01E1C88200756160082BDC4 /* member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = member.swift; sourceTree = "<group>"; };
-		A01E1C8A20075F6F0082BDC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A05547222029CD5B00AB16D1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A05664D62029E3B400FAB7F6 /* ControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlViewController.swift; sourceTree = "<group>"; };
+		A057B181202F896900B66042 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		A05BF3492033FCAD008B0A33 /* EnergyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyViewController.swift; sourceTree = "<group>"; };
+		A05FCC3920231870002D232F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0621C7C202D83A8009505A3 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		A0633479202980C100D702E7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A063347B2029815C00D702E7 /* ForgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetViewController.swift; sourceTree = "<group>"; };
+		A063347D2029851900D702E7 /* DashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashViewController.swift; sourceTree = "<group>"; };
 		A07A1C011FA1F558008A70D2 /* SmartElectricSavingHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartElectricSavingHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07A1C041FA1F558008A70D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A07A1C061FA1F558008A70D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +87,10 @@
 		A07A1C231FA1F558008A70D2 /* SmartElectricSavingHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartElectricSavingHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07A1C271FA1F558008A70D2 /* SmartElectricSavingHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartElectricSavingHomeUITests.swift; sourceTree = "<group>"; };
 		A07A1C291FA1F558008A70D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A09C6FD3203163F30082A1DB /* TableViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		A09C6FD5203164BE0082A1DB /* energyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = energyModel.swift; sourceTree = "<group>"; };
+		A09D4170202EE13600E73241 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		A0A9383A20307DCE002599AA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		B28BAD8D1AEE091DF3FBC9EF /* Pods_SmartElectricSavingHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartElectricSavingHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53443694FBF635A9C3339CD /* Pods-SmartElectricSavingHomeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartElectricSavingHomeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartElectricSavingHomeUITests/Pods-SmartElectricSavingHomeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F3508E9A51DDBB75A1174D12 /* Pods_SmartElectricSavingHomeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartElectricSavingHomeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A057B182202F896900B66042 /* HomeKit.framework in Frameworks */,
 				5AA87FFE709E118B78098628 /* Pods_SmartElectricSavingHome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,6 +128,7 @@
 		1C95A0C4F25A574BDE0227B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A057B181202F896900B66042 /* HomeKit.framework */,
 				B28BAD8D1AEE091DF3FBC9EF /* Pods_SmartElectricSavingHome.framework */,
 				09A43720BD1A79D62FB07C1D /* Pods_SmartElectricSavingHomeTests.framework */,
 				F3508E9A51DDBB75A1174D12 /* Pods_SmartElectricSavingHomeUITests.framework */,
@@ -134,12 +164,25 @@
 				A01E1C8620074FB40082BDC4 /* GoogleService-Info.plist */,
 				A01E1C8320074E760082BDC4 /* SmartElectricSavingHome.entitlements */,
 				A07A1C041FA1F558008A70D2 /* AppDelegate.swift */,
+				A09D4170202EE13600E73241 /* AlertController.swift */,
 				A07A1C061FA1F558008A70D2 /* ViewController.swift */,
+				60965A05201B04BA00DED78F /* HomeViewController.swift */,
+				A0633479202980C100D702E7 /* SignUpViewController.swift */,
+				A05547222029CD5B00AB16D1 /* LoginViewController.swift */,
+				A063347B2029815C00D702E7 /* ForgetViewController.swift */,
+				A05664D62029E3B400FAB7F6 /* ControlViewController.swift */,
+				A063347D2029851900D702E7 /* DashViewController.swift */,
+				A0621C7C202D83A8009505A3 /* HistoryViewController.swift */,
+				A05BF3492033FCAD008B0A33 /* EnergyViewController.swift */,
 				A07A1C081FA1F558008A70D2 /* Main.storyboard */,
+				A09C6FD5203164BE0082A1DB /* energyModel.swift */,
+				A09C6FD3203163F30082A1DB /* TableViewControllerTableViewCell.swift */,
+				6041B5AE201B1ABE0093B719 /* SettingViewController.swift */,
+				A0A9383A20307DCE002599AA /* TableViewController.swift */,
 				A07A1C101FA1F558008A70D2 /* LaunchScreen.storyboard */,
 				A07A1C131FA1F558008A70D2 /* Info.plist */,
-				A01E1C8A20075F6F0082BDC4 /* Assets.xcassets */,
 				A07A1C0B1FA1F558008A70D2 /* SmartElectricSavingHome.xcdatamodeld */,
+				A05FCC3920231870002D232F /* Assets.xcassets */,
 				A01E1C88200756160082BDC4 /* member.swift */,
 			);
 			path = SmartElectricSavingHome;
@@ -255,6 +298,9 @@
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
 							com.apple.Keychain = {
 								enabled = 1;
 							};
@@ -272,7 +318,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A07A1BFC1FA1F558008A70D2 /* Build configuration list for PBXProject "Smartrivity" */;
+			buildConfigurationList = A07A1BFC1FA1F558008A70D2 /* Build configuration list for PBXProject "Smartricity" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -299,7 +345,7 @@
 			files = (
 				A07A1C121FA1F558008A70D2 /* LaunchScreen.storyboard in Resources */,
 				A01E1C8720074FB40082BDC4 /* GoogleService-Info.plist in Resources */,
-				A01E1C8B20075F6F0082BDC4 /* Assets.xcassets in Resources */,
+				A05FCC3A20231870002D232F /* Assets.xcassets in Resources */,
 				A07A1C0A1FA1F558008A70D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,15 +407,21 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SmartElectricSavingHome/Pods-SmartElectricSavingHome-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -481,10 +533,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A09D4171202EE13600E73241 /* AlertController.swift in Sources */,
+				A0A9383B20307DCE002599AA /* TableViewController.swift in Sources */,
+				A063347A202980C100D702E7 /* SignUpViewController.swift in Sources */,
+				A09C6FD4203163F30082A1DB /* TableViewControllerTableViewCell.swift in Sources */,
+				A05664D72029E3B400FAB7F6 /* ControlViewController.swift in Sources */,
+				A063347E2029851900D702E7 /* DashViewController.swift in Sources */,
+				A0621C7D202D83A8009505A3 /* HistoryViewController.swift in Sources */,
+				A09C6FD6203164BE0082A1DB /* energyModel.swift in Sources */,
+				60965A07201B0B0C00DED78F /* HomeViewController.swift in Sources */,
 				A07A1C071FA1F558008A70D2 /* ViewController.swift in Sources */,
+				A063347C2029815C00D702E7 /* ForgetViewController.swift in Sources */,
 				A07A1C0D1FA1F558008A70D2 /* SmartElectricSavingHome.xcdatamodeld in Sources */,
 				A07A1C051FA1F558008A70D2 /* AppDelegate.swift in Sources */,
 				A01E1C89200756160082BDC4 /* member.swift in Sources */,
+				A05BF34A2033FCAD008B0A33 /* EnergyViewController.swift in Sources */,
+				A05547232029CD5B00AB16D1 /* LoginViewController.swift in Sources */,
+				6041B5AF201B1ABE0093B719 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,12 +718,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = SmartElectricSavingHome/SmartElectricSavingHome.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D5JD2MUD9N;
 				INFOPLIST_FILE = SmartElectricSavingHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SESH.SmartElectricSavingHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -671,12 +738,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = SmartElectricSavingHome/SmartElectricSavingHome.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D5JD2MUD9N;
 				INFOPLIST_FILE = SmartElectricSavingHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SESH.SmartElectricSavingHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -755,7 +824,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A07A1BFC1FA1F558008A70D2 /* Build configuration list for PBXProject "Smartrivity" */ = {
+		A07A1BFC1FA1F558008A70D2 /* Build configuration list for PBXProject "Smartricity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A07A1C2A1FA1F558008A70D2 /* Debug */,

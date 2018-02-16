@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DashViewController.swift
 //  SmartElectricSavingHome
 //
 //  Created by Kolak Keeratipattarakul on 10/26/17.
@@ -7,14 +7,16 @@
 //
 
 import UIKit
+import Firebase
 
-class ViewController: UIViewController {
-
-        
+class DashViewController: UIViewController {
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
-    
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
@@ -30,6 +32,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-
+    func mqttDelegateTesting(){
+        //int data = FIRDatabase.database().
+        
+    }
+    
 }
+
+
