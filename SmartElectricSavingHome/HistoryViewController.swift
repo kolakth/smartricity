@@ -31,14 +31,18 @@ class HistoryViewController: UIViewController{
     let EnergyUsageRef = Database.database().reference().child("001")
     var EnergyUsage = [HistoryViewController]()
     
+    @IBAction func backFromModal(_ seque: UIStoryboardSegue) {
+        self.tabBarController?.selectedIndex = 3
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.tabBarController?.selectedIndex = 3
         //tableView.delegate = self
         //tableView.dataSource = self
         
         
-        let userID = Auth.auth().currentUser?.uid
+        //let userID = Auth.auth().currentUser?.uid
         
         HistoryViewController.shared.EnergyUsageRef.observe(DataEventType.value, with: { (snapshot) in
             print(snapshot)

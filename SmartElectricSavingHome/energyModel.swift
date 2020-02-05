@@ -13,11 +13,13 @@ class energyModel{
     var current: String?
     var power: String?
     var time: String?
+    var energy: String?
     
-    init(voltage: String?, current: String?, power: String?, time: String? ) {
+    init(voltage: String?, current: String?, power: String?, time: String?, energy: String? ) {
         self.voltage = voltage
         self.current = current
         self.power = power
         self.time = time
+        self.energy = energy
     }
 }

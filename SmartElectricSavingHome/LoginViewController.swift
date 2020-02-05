@@ -17,6 +17,15 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var UserName: UITextField!
     @IBOutlet weak var pass: UITextField!
     
+    /*
+    override func viewWillAppear(_ animated: Bool) {
+        if Auth.auth().currentUser != nil{
+            print("current user: \(String(describing: Auth.auth().currentUser))")
+            self.performSegue(withIdentifier: "goToHome", sender: nil)
+        }
+        }
+    */
+    
     
     @IBAction func SignIn(_ sender: Any) {
         SVProgressHUD.show()
@@ -29,6 +38,10 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
             AlertController.showAlert(_inViewController: self, title: "Sorry!", message: "Please fill out all required fields")
                 return
         }
+        
+        let userDefaults = UserDefaults.standard
+        userDefaults.setValue(self.UserName.text!, forKey: "email")
+        userDefaults.setValue(self.pass.text!, forKey: "password")
         
         Auth.auth().signIn(withEmail: email, password: password, completion: {(user, error) in
             guard error == nil else{
@@ -47,10 +60,19 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         
     }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        if Auth.auth().currentUser != nil{
+            SVProgressHUD.show()
+            print("current user: \(String(describing: Auth.auth().currentUser))")
+            Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false) { (timer) in
+                SVProgressHUD.dismiss()
+                self.performSegue(withIdentifier: "goToHome", sender: nil)
+            }
+        }
     }
+    
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
@@ -70,6 +92,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         //int data = FIRDatabase.database().
         
     }
+    
     
 }
 

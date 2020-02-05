@@ -18,9 +18,10 @@ class TableViewController: UITableViewController{
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int)-> Int{
         return energyList.count
     }
-    
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> (UITableViewCell){
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewControllerTableViewCell
+
         let energy: energyModel
         
         energy = energyList[indexPath.row]
@@ -50,8 +51,9 @@ class TableViewController: UITableViewController{
                     let energyCurrent = energyObject?["current"]
                     let energyPower = energyObject?["power"]
                     let energyTime = energyObject?["time"]
+                    let energyEnergy = energyObject?["energy"]
                     
-                    let energy = energyModel(voltage: energyVoltage as! String?, current: energyCurrent as! String?, power: energyPower as! String?, time: energyTime as! String?)
+                    let energy = energyModel(voltage: energyVoltage as! String?, current: energyCurrent as! String?, power: energyPower as! String?, time: energyTime as! String?, energy: energyEnergy as! String?)
                     
                     SVProgressHUD.dismiss()
                     self.energyList.append(energy)

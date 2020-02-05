@@ -18,4 +18,9 @@ class AlertController{
         _inViewController.present(alert, animated: true, completion: nil)
     }
     
+    static func showSecondAlert(_inViewController: UIViewController, title: String, message: String){
+        let alert2 = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let action2 = UIAlertController(title: "See the following instructions", message: "Dismiss to close this warning ", preferredStyle: .alert)
+    }
+    
 }
